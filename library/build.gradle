@@ -11,12 +11,12 @@ repositories {
 }
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion '19.1'
+    compileSdkVersion 21
+    buildToolsVersion '21.0.1'
 
     defaultConfig {
         minSdkVersion 9
-        targetSdkVersion 19
+        targetSdkVersion 21
         versionCode 65
         versionName "2.4.2"
     }
@@ -37,5 +37,5 @@ android {
 }
 
 dependencies {
-    provided 'com.android.support:support-v4:19.+'
+    provided 'com.android.support:support-v4:21.0.0'
 }
