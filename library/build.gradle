@@ -23,7 +23,7 @@ android {
 
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
         }
     }
 
@@ -37,5 +37,5 @@ android {
 }
 
 dependencies {
-    provided 'com.android.support:support-v4:19.+'
+    provided 'com.android.support:support-v4:19.1.0'
 }
